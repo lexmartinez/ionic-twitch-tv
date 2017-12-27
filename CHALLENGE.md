@@ -1,4 +1,4 @@
-# FreeCodeCamp Challenge - Use the Twitchtv JSON API
+# FreeCodeCamp Project - Use the Twitchtv JSON API
 
 1. Objective: Build a **CodePen.io** app that is functionally similar to this: **[https://codepen.io/FreeCodeCamp/full/Myvqmo/](https://codepen.io/FreeCodeCamp/full/Myvqmo/)**.
 2. Fulfill the below **user stories**. Use whichever libraries or APIs you need. Give it your own personal style.
@@ -14,4 +14,4 @@
 12. You can get feedback on your project by sharing it with your friends on Facebook.
 
 
-> For more details see here the [Challenge Video](https://youtu.be/6WrbY1d-IHI)
+> For more details see here the [Project Video](https://youtu.be/6WrbY1d-IHI)
