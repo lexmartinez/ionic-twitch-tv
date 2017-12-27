@@ -3,21 +3,26 @@
     <button ion-button menuToggle>
       <ion-icon name="menu"></ion-icon>
     </button>
-    <ion-title>List</ion-title>
+    <ion-title>
+      <span *ngIf="target==='all'">All Streamers</span>
+      <span *ngIf="target==='online'">Online Streamers</span>
+      <span *ngIf="target==='offline'">Offline Streamers</span>
+    </ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content>
   <ion-list>
-    <button ion-item *ngFor="let item of items" (click)="itemTapped($event, item)">
-      <ion-icon [name]="item.icon" item-start></ion-icon>
-      {{item.title}}
+    <div ion-item *ngFor="let item of items" (click)="launch('https://www.twitch.tv/' + item.name)">
+      <ion-thumbnail item-start>
+        <img src="{{item.logo}}">
+      </ion-thumbnail>
+      <h2>{{item.display_name}}</h2>
+      <p *ngIf="item.status">{{item.status}}</p>
       <div class="item-note" item-end>
-        {{item.note}}
+        <ion-icon name="radio-button-on" style="color:#228B22" *ngIf="item.online"></ion-icon>
+        <ion-icon name="radio-button-on" style="color:#990000" *ngIf="!item.online"></ion-icon>
       </div>
-    </button>
+    </div>
   </ion-list>
-  <div *ngIf="selectedItem" padding>
-    You navigated here from <b>{{selectedItem.title}}</b>
-  </div>
 </ion-content>
