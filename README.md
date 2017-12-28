@@ -18,7 +18,7 @@ $ ionic cordova run ios
 
 ```
 
-## Screenshot
+## Screenshots
 
 | ![](https://github.com/lexmartinez/ionic-twitch-tv/raw/master/screenshots/screenshot-1.png) | ![](https://github.com/lexmartinez/ionic-twitch-tv/raw/master/screenshots/screenshot-2.png) |
 | ------------- | ------------- |
