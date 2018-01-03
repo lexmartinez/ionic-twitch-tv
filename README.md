@@ -2,8 +2,6 @@
 
 :tv: A Simple Ionic App to Use the TwitchTV JSON API - [#FreeCodeCamp Project](https://github.com/lexmartinez/ionic-twitch-tv/blob/master/CHALLENGE.md) : [#100DaysOfCode](http://100daysofcode.com/)
 
-> Day 2 of #100DaysOfCode Challenge
-
 ## Build Setup
 
 ``` bash

@@ -16,8 +16,7 @@
     "ionic",
     "mobile-app",
     "freecodecamp",
-    "twitch-tv",
-    "100daysofcode"
+    "twitch-tv"
   ],
   "scripts": {
     "clean": "ionic-app-scripts clean",
